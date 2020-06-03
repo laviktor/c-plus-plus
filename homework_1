@@ -1,18 +1,7 @@
-/* Convert this program to C++
+//Homework #1
 
-* change to C++ io
-
-* change to one line comments
-
-* change defines of constants to const
-
-* change array to vector<>
-
-* inline any short function
-
-*/
-
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 #define N 40
 
@@ -46,7 +35,7 @@ data[i] = i;
 
 sum(&accum, N, data);
 
-printf("sum is %d\n", accum);
+cout << "sum is %d\n", accum;
 
 return 0;
 
